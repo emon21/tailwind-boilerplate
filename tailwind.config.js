@@ -2,7 +2,17 @@
 module.exports = {
     content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+        custom: ['Hanken Grotesk', 'sans-serif'],
+      },
+    extend: {
+        colors:{
+            btnprimary:"#008AFF",  
+            },
+
+        },
+        
+  
     container: {
         center: true,
         padding: "0rem",
